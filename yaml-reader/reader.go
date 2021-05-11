@@ -8,7 +8,7 @@ import (
 var W = new(Workshop)
 
 func init() {
-	vibe.AddConfigFiles("conf/config.yml")
+	vibe.AddConfigFiles("conf/config.yml", "conf/config-dev.yml")
 
 	if err := vibe.ReadConfig(); nil != err {
 		log.Fatalf("读取配置文件失败，异常信息：%v", err)

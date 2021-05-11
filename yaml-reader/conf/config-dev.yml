@@ -1,0 +1,8 @@
+#
+# config
+worker2: # worker hans
+  name: hans
+  age: 36
+worker1: # worker jim
+  name: jim
+  age: 32
