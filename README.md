@@ -1,2 +1,2 @@
 # go-explore
-go lang探索
+GoLang探索
